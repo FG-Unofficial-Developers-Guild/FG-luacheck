@@ -405,6 +405,13 @@ jobs:
         path: .fg/extensions/Pets
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
+    - name: Clone farratto/WalkThisWay
+      uses: actions/checkout@v4
+      with:
+        repository: farratto/WalkThisWay
+        path: .fg/extensions/WalkThisWay
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
 
     # Processing
     - name: Generate new .luacheckrc
