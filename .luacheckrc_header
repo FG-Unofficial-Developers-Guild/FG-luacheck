@@ -166,6 +166,7 @@ stds.fg = {
         getIcons = {read_only = true},
         getRulesetInfo = {read_only = true},
         getString = {read_only = true},
+        getWindows = {read_only = true},
         isFont = {read_only = true},
         isFrame = {read_only = true},
         isFullScreen = {read_only = true},
