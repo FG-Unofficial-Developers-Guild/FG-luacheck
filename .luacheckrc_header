@@ -130,6 +130,8 @@ stds.fg = {
       other_fields = false,
       fields = {
         addLayerPaintStamp = {read_only = true},
+        getDistanceBaseUnits = {read_only = true},
+        getDistanceSuffix = {read_only = true},
       },
     },
     Input = {
@@ -320,5 +322,6 @@ stds.fgfunctions = {
   globals = {
     "onInit",
     "onClose",
+    "onTabletopInit",
   }
 }
