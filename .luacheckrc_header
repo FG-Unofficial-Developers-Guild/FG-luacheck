@@ -312,6 +312,8 @@ stds.fg = {
     header = {other_fields = true},
     super = {other_fields = true},
     self = {other_fields = true},
+	content = {other_fields = true},
+	actions = {other_fields = true},
   },
 }
 
