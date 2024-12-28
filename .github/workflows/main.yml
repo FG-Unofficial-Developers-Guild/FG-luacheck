@@ -412,6 +412,20 @@ jobs:
         path: .fg/extensions/WalkThisWay
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
+    - name: Clone farratto/JackOfAllThings
+      uses: actions/checkout@v4
+      with:
+        repository: farratto/JackOfAllThings
+        path: .fg/extensions/JackOfAllThings
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone farratto/WinnowingPursuits
+      uses: actions/checkout@v4
+      with:
+        repository: farratto/WinnowingPursuits
+        path: .fg/extensions/WinnowingPursuits
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
 
     # Processing
     - name: Generate new .luacheckrc
