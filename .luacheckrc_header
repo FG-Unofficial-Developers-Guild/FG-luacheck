@@ -292,6 +292,7 @@ stds.fg = {
         setPortrait = {read_only = true},
         addEventHandler = {read_only = true},
         removeEventHandler = {read_only = true},
+		IsHost = {read_only = true},
       },
     },
     Utility = {
