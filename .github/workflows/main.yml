@@ -352,35 +352,6 @@ jobs:
         repository: rhagelstrom/Pets
         path: .fg/extensions/Pets
         fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    - name: Clone farratto/WalkThisWay
-      uses: actions/checkout@v4
-      with:
-        repository: farratto/WalkThisWay
-        path: .fg/extensions/WalkThisWay
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    - name: Clone farratto/JackOfAllThings
-      uses: actions/checkout@v4
-      with:
-        repository: farratto/JackOfAllThings
-        path: .fg/extensions/JackOfAllThings
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    - name: Clone farratto/WinnowingPursuits
-      uses: actions/checkout@v4
-      with:
-        repository: farratto/WinnowingPursuits
-        path: .fg/extensions/WinnowingPursuits
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    - name: Clone farratto/Blink
-      uses: actions/checkout@v4
-      with:
-        repository: farratto/Blink
-        path: .fg/extensions/Blink
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
 
     # Processing
     - name: Generate new .luacheckrc
