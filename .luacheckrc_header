@@ -255,6 +255,7 @@ stds.fg = {
         onWheel = {read_only = false},
         addEventHandler = {read_only = false},
         removeEventHandler = {read_only = false},
+		addToken = {read_only = false},
       },
     },
     User = {
