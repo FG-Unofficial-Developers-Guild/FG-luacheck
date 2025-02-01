@@ -132,6 +132,10 @@ stds.fg = {
         addLayerPaintStamp = {read_only = true},
         getDistanceBaseUnits = {read_only = true},
         getDistanceSuffix = {read_only = true},
+		getGridSize = {read_only = true},
+		getLayerByName = {read_only = true},
+		addLayer = {read_only = true},
+		deleteLayer = {read_only = true},
       },
     },
     Input = {
@@ -195,6 +199,7 @@ stds.fg = {
         getDicePacks = {read_only = true},
         getDicePackInfo = {read_only = true},
 		getVersion = {read_only = true},
+		getAssets = {read_only = true},
       },
     },
     Module = {
